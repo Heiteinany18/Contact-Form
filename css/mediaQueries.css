@@ -1,0 +1,214 @@
+@media only screen and (min-width: 240px) and (max-width: 320px) {
+  html,
+  body {
+    font-size: 80%;
+  }
+
+  .container {
+    width: 80%;
+    height: 100%;
+    padding-top: 30px;
+    position: relative;
+  }
+
+  h1 {
+    position: absolute;
+    top: 10px;
+    left: 19%;
+    font-size: 16px;
+  }
+
+  form > input {
+    font-size: 14px;
+    margin-bottom: 7px;
+    padding: 5px 10px;
+  }
+
+  form > button {
+    padding: 5px;
+  }
+
+  form > textarea {
+    margin-bottom: 7px;
+    font-size: 14px;
+    padding: 10px;
+    height: 60px;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .container {
+    width: 80%;
+    height: 70%;
+    padding-top: 30px;
+    position: relative;
+  }
+
+  h1 {
+    position: absolute;
+    top: 15px;
+    left: 10%;
+    font-size: 16px;
+  }
+
+  form > input {
+    font-size: 14px;
+    margin-bottom: 7px;
+    padding: 10px;
+  }
+
+  form > button {
+    padding: 5px;
+  }
+
+  form > textarea {
+    margin-bottom: 7px;
+    font-size: 14px;
+    padding: 10px;
+    height: 90px;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 640px) {
+  html,
+  body {
+    font-size: 80%;
+  }
+
+  .container {
+    width: 80%;
+    height: 60%;
+    padding-top: 30px;
+    position: relative;
+  }
+
+  h1 {
+    position: absolute;
+    top: 20px;
+    left: 5%;
+    font-size: 18px;
+  }
+
+  form > input {
+    font-size: 16px;
+    margin-bottom: 10px;
+    padding: 15px 10px;
+  }
+
+  form > button {
+    padding: 14px;
+    font-size: 18px;
+  }
+
+  form > textarea {
+    margin-bottom: 7px;
+    font-size: 14px;
+    padding: 10px;
+    height: 120px;
+  }
+}
+
+/*
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .container {
+    width: 80%;
+    height: 60%;
+    padding-top: 30px;
+    position: relative;
+  }
+
+  h1 {
+    position: absolute;
+    top: 30px;
+    left: 5%;
+    font-size: 16px;
+  }
+
+  form > input {
+    font-size: 14px;
+    margin-bottom: 7px;
+    padding: 10px;
+  }
+
+  form > button {
+    padding: 5px;
+  }
+
+  form > textarea {
+    margin-bottom: 7px;
+    font-size: 14px;
+    padding: 10px;
+    height: 90px;
+  }
+}
+*/
+
+@media only screen and (min-width: 640px) and (max-width: 745px) {
+  .container {
+    width: 80%;
+    height: 100%;
+    padding-top: 30px;
+    position: relative;
+  }
+
+  h1 {
+    position: absolute;
+    top: 30px;
+    left: 5%;
+    font-size: 16px;
+  }
+
+  form > input {
+    font-size: 14px;
+    margin-bottom: 7px;
+    padding: 10px;
+  }
+
+  form > button {
+    padding: 5px;
+  }
+
+  form > textarea {
+    margin-bottom: 7px;
+    font-size: 14px;
+    padding: 10px;
+    height: 90px;
+  }
+}
+
+@media only screen and (min-width: 767px) {
+  .container {
+    width: 80%;
+    height: 80%;
+    padding-top: 30px;
+    position: relative;
+  }
+
+  h1 {
+    position: absolute;
+    top: 30px;
+    left: 5%;
+    font-size: 16px;
+  }
+
+  form > input {
+    font-size: 16px;
+    margin-bottom: 10px;
+    padding: 15px;
+  }
+
+  form > button {
+    padding: 13px;
+    font-size: 18px;
+  }
+
+  form > textarea {
+    margin-bottom: 7px;
+    font-size: 14px;
+    padding: 10px;
+    height: 120px;
+  }
+}
+
+@media only screen and (min-width: 1023px) {
+}

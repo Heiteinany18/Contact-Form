@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="stylesheet" href="css/mediaQueries.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>GET IN TOUCH</h1>
+      <!--FORM-->
+      <form onclick="sendEmail(); reset(); return false; ">
+        <!--For Name-->
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Name..."
+          required
+        />
+
+        <!--For Email-->
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Email..."
+          required
+        />
+
+        <!--For Phone No:-->
+        <input
+          type="tel"
+          id="phone"
+          name="phone"
+          placeholder="Phone No:..."
+          required
+        />
+
+        <!--For Message-->
+        <textarea
+          id="message"
+          name="message"
+          rows="10"
+          maxlength="150"
+          placeholder="Enter your Message..."
+          required
+        ></textarea>
+
+        <!--For Submit Button-->
+        <button type="submit" id="submit">Submit</button>
+      </form>
+    </div>
+
+    <script src="https://smtpjs.com/v3/smto.js"></script>
+    <script src="/index.js"></script>
+  </body>
+</html>
